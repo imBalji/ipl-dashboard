@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #282c34;
+  color: aliceblue;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.won-card {
+  background-color: #54e1a3;
+}
+
+.lost-card {
+  background-color: #a34d5d;
+}
